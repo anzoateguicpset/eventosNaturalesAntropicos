@@ -1,0 +1,199 @@
+body {
+	background-image: url(../png/Fondo.png);
+	background-color: #008040;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+#contenedor {
+    width:750px; 
+	height: 550px;
+    margin:0 auto;
+	position: relative;
+}
+
+.Titulo{
+	float: left;		
+	font-family: Consolas;
+	color: white;	
+	height: 50px;
+	position: absolute;	
+	width: 500px;	
+}
+
+#T1{
+	top: 14%;
+	left: 22%;
+	font-size: 30px;	
+	text-align: center;
+}
+
+#T2{
+	top: 28%;
+	left: 25%;
+	font-size: 20px;
+	text-align:justify;
+}
+
+.Letra{
+	float: left;		
+	font-family: Consolas;
+	color: white;
+	font-size: 20px;	
+	height: 200px;
+	position: absolute;
+	text-align: justify;
+	width: 500px;
+}
+
+#L1{
+	top: 38%;
+	left: 25%;	
+}
+
+#L2{	
+	top: 60%;
+	left: 25%;		
+}
+
+.Boton{
+	float: left;	
+	font-size: 30px;	
+	height: 60px;
+	position: absolute;
+	text-align: center;	
+}
+
+#B1{		
+	top: 45%;
+	left: 35%;	
+	width: 100px;		
+}
+
+#B2{
+	top: 45%;
+	left: 60%;		
+	width: 100px;	
+}
+
+#B3{
+	top: 65%;
+	left: 48%;
+	width: 100px;
+}
+
+#Proximo{
+	top: 91%;
+	left: 90%;
+	width: 50px;
+}
+
+#Anterior{
+	top: 91%;
+	left: 83%;
+	width: 50px;
+}
+
+#Inicio{
+	top: 89.1%;
+	left: 77%;
+	width: 50px;
+}
+
+.Invisible{
+	height: 20px;
+	width: 35px;	
+	position:absolute;
+	text-align: justify;
+	font-family: Consolas;
+	color: white;
+	font-size: 20px;
+}
+
+.Visible{
+	height: 20px;
+	width: 35px;	
+	border-style:solid;
+	border-color: black;
+	position:absolute;
+	text-align: justify;
+}
+
+#a1{
+	left: 52.2%;
+	top: 24.6%;
+}
+
+#a2{
+	left: 33.8%;
+	top: 34.3%;
+}
+
+#a3{
+	left: 75.4%;
+	top: 34.3%;
+}
+
+#a4{
+	left: 52%;
+	top: 43%;
+}
+
+#a5{
+	left: 88.1%;
+	top: 43%;
+}
+
+#a6{
+	left: 37.9%;
+	top: 51.7%;
+}
+
+#a7{
+	left: 75.3%;
+	top: 51.7%;
+}
+
+#a8{
+	left: 88.8%;
+	top: 60.7%;
+}
+
+#a9{
+	left: 61.4%;
+	top: 65%;
+}
+
+#a10{
+	left: 38.7%;
+	top: 78%;
+}
+
+#a11{
+	left: 52.2%;
+	top: 24.4%;
+}
+
+#a12{
+	left: 35%;
+	top: 34.4%;
+}
+
+#a13{
+	left: 39%;
+	top: 38.5%;
+}
+
+#a14{
+	left: 58.7%;
+	top: 38.5%;
+}
+
+
+a:visited {
+	color: #008040;
+}
+
+a:link {
+	color: #008040;
+}

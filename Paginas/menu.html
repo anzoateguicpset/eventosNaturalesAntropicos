@@ -1,0 +1,565 @@
+<html>
+	<head>
+		<title>Menu Principal</title>
+		<meta content="Jeffrey Sanchez" name="author">
+		<link href="../css/menu.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../js/jquery-1.5.js"></script>
+		<script type="text/javascript" src="../js/menu.js"></script>
+	</head>
+
+	<body onload="Inicio()">
+			
+		<div class="barner">
+			<img src="../Imagenes/png/Barras/Barner_menu.png" style="border: 0px solid; position: absolute; z-index: 2;" />
+		</div>
+		<!--Logo de menú-->
+		<a href="../Presentacion/Index.html">
+			<img src="../Imagenes/png/Logos/Logo_menu.png" style="border: 0px solid; position: absolute; width: 203px; height: 124 px; top:7px; left: 8px; z-index: 2; display: none;"
+			id="logoMenu" name="logoMenu"
+			onmouseover="(src='../Imagenes/png/Logos/Logo_menuII.png')" onmouseout="(src='../Imagenes/png/Logos/Logo_menu.png')"
+		></a>
+		<!--Imagenes Fondo Menú-->
+		<img src="../Imagenes/png/Fondos/Imag1.png" style="position: absolute; width: 114px; height: 114 px; top:1px; left: 570px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag1_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag1.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag2.png" style="position: absolute; width: 114px; height: 114 px; top:1px; left: 795px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag2_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag2.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag3.png" style="position: absolute; width: 114px; height: 114 px; top:227px; left: 795px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag3_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag3.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag4.png" style="position: absolute; width: 114px; height: 114 px; top:227px; left: 569px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag4_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag4.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag5.png" style="position: absolute; width: 113px; height: 114 px; top:454px; left: 569px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag5_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag5.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag6.png" style="position: absolute; width: 114px; height: 114 px; top:454px; left: 796px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag6_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag6.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag7.png" style="position: absolute; width: 113px; height: 113 px; top:115px; left: 456px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag7_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag7.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag8.png" style="position: absolute; width: 114px; height: 113 px; top:116px; left: 682px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag8_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag8.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag9.png" style="position: absolute; width: 114px; height: 114 px; top:340px; left: 456px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag9_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag9.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag10.png" style="position: absolute; width: 114px; height: 113 px; top:341px; left:682px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag10_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag10.png')"
+		>
+		<img src="../Imagenes/png/Fondos/Imag11.png" style="position: absolute; width: 113px; height: 114 px; top:340px; left:908px; z-index: 1;"
+			onmouseover="(src='../Imagenes/png/Fondos/Imag11_pre.png')" onmouseout="(src='../Imagenes/png/Fondos/Imag11.png')"
+		>
+		
+		<!-- Botones Menu-->
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_diversidad.png" style="border: 0px solid; position: absolute; top: 111px; left: 112px; width: 127px;
+			height: 122px; z-index:6; overflow: hidden;	visibility: visible; z-index: 2; display: none;" id="botonDiversidad" name="botonDiversidad"
+			alt="botonDiversidad" onclick="Aparecer(1)"onmouseover="(src='../Imagenes/png/Botones/Boton_diversidad_pre.png')"
+			onmouseout="(src='../Imagenes/png/Botones/Boton_diversidad.png')"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_eventos.png" style="border: 0px solid; position: absolute; top: 222px; left: 0px; width: 126px;
+			height: 123px;z-index: 6; overflow: hidden; visibility: visible; z-index: 2; display: none;" id="botonEventosNatu" name="botonEventosNatu"
+			alt="botonEventosNatu" onclick="Aparecer(2)" onmouseover="(src='../Imagenes/png/Botones/Boton_eventos_pre.png')"
+			onmouseout="(src='../Imagenes/png/Botones/Boton_eventos.png')"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_medidas.png" style="border: 0px solid; position: absolute; top: 338px; left: 112px; width: 126px;
+			height: 124px;z-index: 6; overflow: hidden; visibility: visible; z-index: 2; display: none;" id="botonMedidasPrev"
+			alt="botonMedidasPrev" onclick="Aparecer(3)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_medidas_pre.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_medidas.png')"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_orientaciones.png" style="border: 0px solid; position: absolute; top:451px; left: 2px; width: 122px;
+			height: 124px;z-index: 6; overflow: hidden; visibility: visible; z-index: 2; display: none;" id="botonOrientaciones" name="botonOrientaciones"
+			alt="botonOrientaciones" onclick="Aparecer(4)" onmouseover="(src='../Imagenes/png/Botones/Boton_orientaciones_pre.png')"
+			onmouseout="(src='../Imagenes/png/Botones/Boton_orientaciones.png')"
+		></a>
+		
+		
+		<!--Botón de lectura-->
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_lectura.png" style="border: 0px solid; position: absolute; top:451px; left: 906px; width: 118px;
+			height: 121px;z-index: 6; overflow: hidden; visibility: visible; z-index: 2; display: none;" id="bton_Lect" name="botonOrientaciones"
+			alt="botonOrientaciones" onclick="Aparecer(29)" onmouseover="(src='../Imagenes/png/Botones/Boton_lecturaII.png')"
+			onmouseout="(src='../Imagenes/png/Botones/Boton_lectura.png')"
+		></a>
+		<!--Texto Plan de Emergencia-->
+		<img src="../Imagenes/png/Textos/Lectura.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px; 	
+			overflow: hidden; visibility: visible;z-index: 5; display: none;" id="Text_Lec" alt="Text_Lec"
+		>
+		<!--Botón Cerrar Plan de Emergencia-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Boton_cerrar_lectura.png" style="border: 0px solid; position: absolute; top: 18px; left: 928px; width: 73px; height: 70px; 	
+			overflow: hidden; visibility: visible;z-index: 6; display: none;" id="BotDCer_Lec" alt="BotDCer_Lec" onclick="Desaparecer(25)" 
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_lecturaII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_cerrar_lectura.png')"
+		></a>
+		
+		
+		<!--BLOQUE DIVERSIDAD-->
+		
+		<!--Barras-->
+		<img src="../Imagenes/png/Barras/Linea1_diversidad.png" style="border: 0px solid; position: absolute; top: 109px; left:226px; width: 118px; height: 351px;
+			overflow: hidden; visibility: visible; z-index: 1; display: none;" id="linea1Diversidad" name="barra1Diversidad" alt="barra1Diversidad"
+		></a>
+		<img src="../Imagenes/png/Barras/Linea2_diversidad.png" style="border: 0px solid; position: absolute; top: 109px; left:339px; width: 118px; height: 351px;
+		overflow: hidden; visibility: visible; z-index: 4; display: none;" id="linea2Diversidad" name="barra2Diversidad" alt="barra2Diversidad"
+		></a>
+		<img src="../Imagenes/png/Barras/Linea3_diversidad.png" style="border: 0px solid; position: absolute; top: 109px; left:452px; width: 118px; height: 351px;
+		overflow: hidden; visibility: visible; z-index: 4; display: none;" id="linea3Diversidad" name="barra3Diversidad" alt="barra3Diversidad"
+		></a>
+		<img src="../Imagenes/png/Barras/Linea4_diversidad.png" style="border: 0px solid; position: absolute; top: 109px; left:565px; width: 118px; height: 351px;
+		overflow: hidden; visibility: visible; z-index: 4; display: none;" id="linea4Diversidad" name="barra4Diversidad" alt="barra4Diversidad"
+		></a>
+		<img src="../Imagenes/png/Barras/Linea5_diversidad.png" style="border: 0px solid; position: absolute; top: 109px; left:678px; width: 118px; height: 351px;
+		overflow: hidden; visibility: visible; z-index: 4; display: none;" id="linea5Diversidad" name="barra5Diversidad" alt="barra5Diversidad"
+		></a>
+		<img src="../Imagenes/png/Barras/Linea6_diversidad.png" style="border: 0px solid; position: absolute; top: 109px; left:791px; width: 118px; height: 351px;
+		overflow: hidden; visibility: visible; z-index: 4; display: none;" id="linea6Diversidad" name="barra6Diversidad" alt="barra6Diversidad"
+		></a>
+		<!--Periodicos-->
+		<img src="../Imagenes/png/Periodicos/Periodico1.png" style="border: 0px solid; position: absolute;  top:45px; left:258px; width: 289px; height: 398px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="Periodico4Diversidad" name="Periodico4Diversidad" alt="Periodico4Diversidad"
+		>
+		<img src="../Imagenes/png/Periodicos/Periodico4.png" style="border: 0px solid; position: absolute;  top:123px; left:620px; width: 278px; height: 405px;
+			overflow: hidden; visibility: visible; z-index: 5; display: none;" id="Periodico1Diversidad" name="Periodico1Diversidad" alt="Periodico1Diversidad"
+		>
+		<img src="../Imagenes/png/Periodicos/Periodico2.png" style="border: 0px solid; position: absolute;  top:102px; left:392px; width: 242px; height: 384px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="Periodico3Diversidad" name="Periodico3Diversidad" alt="Periodico3Diversidad"
+		>
+		<img src="../Imagenes/png/Periodicos/Periodico3.png" style="border: 0px solid; position: absolute;  top:0px; left:0px; width: 1024px; height: 572px;
+		overflow: hidden; visibility: visible; z-index: 5; display: none;" id="Periodico2Diversidad" name="Periodico2Diversidad" alt="Periodico2Diversidad"
+		>
+		<!--Globos-->
+		<a href="#">
+			<img src="../Imagenes/png/Periodicos/Globo_verde.png" style="border: 0px solid; position: absolute; width: 118px; height: 159 px; top: 300px; left:605px;
+			overflow: hidden; visibility: visible; z-index: 6; display: none;" id="globoVerdeDiversidad" name="globoVerdeDiversidad" alt="globoVerdeDiversidad"
+			onclick="Aparecer(8)" onmouseover="(src='../Imagenes/png/Periodicos/Globo_verde_pre.png')" onmouseout="(src='../Imagenes/png/Periodicos/Globo_verde.png')"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Periodicos/Globo_azul.png" style="border: 0px solid; position: absolute; width:112px; height: 160 px; top: 105px; left: 463px;
+			overflow: hidden; visibility: visible; z-index: 6; display: none;" id="globoAzulDiversidad" name="globoAzulDiversidad" alt="globoAzulDiversidad"
+			onclick="Aparecer(9)"; onmouseover="(src='../Imagenes/png/Periodicos/Globo_azul_pre.png')" onmouseout="(src='../Imagenes/png/Periodicos/Globo_azul.png')"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Periodicos/Globo_marron.png" style="border: 0px solid; position: absolute; width: 111px; height: 148 px; top:190px; left: 327px;
+			overflow: hidden; visibility: visible; z-index: 6; display: none;" id="globoMarronDiversidad" name="globoMarronDiversidad" alt="globoMarronDiversidad"
+			onclick="Aparecer(10) " onmouseover="(src='../Imagenes/png/Periodicos/Globo_marron_pre.png')"
+			onmouseout="(src='../Imagenes/png/Periodicos/Globo_marron.png')"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Periodicos/Globo_naranja.png" style="border: 0px solid; position: absolute; width: 115px; height: 159 px; top: 155px;
+			left: 740px; overflow: hidden; visibility: visible; z-index: 6; display: none;" id="globoNaranjaDiversidad" name="globoNaranjaDiversidad"
+			alt="globoNaranjaDiversidad" onclick="Aparecer(11)" onmouseover="(src='../Imagenes/png/Periodicos/Globo_naranja_pre.png')"
+			onmouseout="(src='../Imagenes/png/Periodicos/Globo_naranja.png')"
+		></a>
+		<!--Textos-->
+		<a href="#">
+			<img src="../Imagenes/png/Textos/Dialogo_calor.png" style="border: 0px solid; position: absolute; z-index: 13; top: 0px; left: 0px;
+			width: 1024px; height: 572px; overflow: hidden; visibility: visible; z-index: 7; display: none;" id="textoDeslizamiento" name="textoDeslizamiento"
+			alt="textoDeslizamiento" onclick="Desaparecer(6)"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Textos/Dialogo_inundaciones.png" style="border: 0px solid; position: absolute; z-index: 13; top: 0px; left: 0px; width: 1024px;
+			height: 572px; overflow: hidden; visibility: visible; z-index: 7; display: none;" id="textoInundaciones" name="textoInundaciones" alt="textoInundaciones"
+			onclick="Desaparecer(6)"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Textos/Dialogo_deslizamientos.png" style="border: 0px solid; position: absolute; z-index: 13; top: 0px; left: 0px; width: 1024px;
+			height: 572px; overflow: hidden; visibility: visible;  z-index: 7; display: none;" id="textoCalorExtremo" name="textoCalorExtremo" alt="textoCalorExtremo"
+			onclick="Desaparecer(6)"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Textos/Dialogo_incendios.png" style="border: 0px solid; position: absolute; z-index: 13; top: 0px; left: 0px; width: 1024px;
+			height: 572px; overflow: hidden; visibility: visible; z-index: 7; display: none;" id="textoIncendiosForestales" name="textoIncendiosForestales"
+			alt="textoIncendiosForestales" onclick="Desaparecer(6)"
+		></a>
+		<!--Actividad-->
+		<img src="../Imagenes/png/Barras/Diversidad_actividad_1.png" style="border: 0px solid; position: absolute; top: 2px; left: 910px; width: 111px; height: 111px;
+			overflow: hidden;	visibility: visible; z-index: 6; display: none;" id="linea1ActividadDiv" alt="ActividadIn"
+		>
+		<img src="../Imagenes/png/Barras/Diversidad_actividad_12.png" style="border: 0px solid; position: absolute; top: 115px; left: 910px; width: 111px;
+			height: 111px; overflow: hidden; visibility: visible; z-index: 6; display: none;" id="linea2ActividadDiv" alt="BarnerAct"
+		>
+		<!--Boton Actividad-->
+
+		<a href="../Actividades/actividad_Diversidad.ods">
+			<img src="../Imagenes/png/Botones/Bot_actividad1.png" style="border: 0px solid; position: absolute; top: 120px; left: 907px; width: 117px;
+			height: 114px;	overflow: hidden; visibility: visible; z-index: 6; display: none;" id="botonActividadDiv2"
+		
+		></a>
+		<!--Cerrar-->
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_cerrar_diversidad.png" style="border: 0px solid; position: absolute; top:451px; left: 907px; width: 117px;
+			height: 120px; overflow: hidden; visibility: visible; z-index: 6; display: none;" id="botonCerrarDiv" alt="BCerrarIn" onclick="Desaparecer(1)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_diversidad_pre.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_cerrar_diversidad.png')"
+		></a>
+		
+		<!--BLOQUE EVENTOS NATURALES-->
+		
+		<!--Barras-->
+		<img src="../Imagenes/png/Barras/Linea1_eventos.png" style="border: 0px solid; position: absolute; top: 111px; left:226px; width: 118px; height: 347px;
+			overflow: hidden; visibility: visible; z-index: 1; display: none;" id="linea1Eventos" alt="LineaDiv"
+		></a>
+		<!--Texto Naturales-->
+		<img src="../Imagenes/png/Textos/Tex_Naturales.png" style="border: 0px solid; position: absolute; top: 286px; left:411px; width: 148px; height: 41px;
+			overflow: hidden; visibility: visible; z-index: 6; display: none;" id="TexNatu" alt="TexNatu" onmouseover="(src='../Imagenes/png/Textos/Tex_Naturales.png'), Aparecer(12)"	
+			onmouseout="(src='../Imagenes/png/Textos/Tex_Naturales.png'), Desaparecer(7)"
+		>
+		
+		<!--Mensaje Naturales-->
+		<img src="../Imagenes/png/Textos/Dialogo_Naturales.png" style="border: 0px solid; position: absolute; top:320px; left: 345px; width: 335px; height: 129px;
+			overflow: hidden;	visibility: visible; z-index: 6; display: none;" class="oculta" id="MensajeNat" alt="MensajeNat"
+		>
+		
+		<!--Texto Antropico-->
+		<img src="../Imagenes/png/Textos/Tex_Antropicos.png" style="border: 0px solid; position: absolute; top: 291px; left:579px; width: 170px; height: 36px;
+				overflow: hidden; visibility: visible; z-index: 6; display: none;" id="TexAnt" alt="TexAnt" onmouseover="(src='../Imagenes/png/Textos/Tex_Antropicos.png'), Aparecer(13)"	
+			onmouseout="(src='../Imagenes/png/Textos/Tex_Antropicos.png'), Desaparecer(8)"
+		>
+		
+		<!--Mensaje Antropico-->
+		<img src="../Imagenes/png/Textos/Dialogo_Antropicas.png" style="border: 0px solid; position: absolute; top: 323px; left: 345px; width: 333px; height: 126px;
+			overflow: hidden;	visibility: visible; z-index: 6; display: none;" class="oculta" id="MensajeAnt" alt="MensajeAnt"
+		>
+		<!--Boton Curiosidad eventos-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Curiosidad_eventos.png" style="border: 0px solid; position: absolute; top: 333px; left:674px; width: 132px; height: 128px; 	
+			overflow: hidden; visibility: visible; z-index: 7; display: none;" id="CurioEvent" alt="CurioEvent" onclick="Aparecer(14)"
+		onmouseover="(src='../Imagenes/png/Botones/Curiosidad_eventos_pre.png')" onmouseout="(src='../Imagenes/png/Botones/Curiosidad_eventos.png')"
+		></a>
+		<!--Texto curiosidad-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/curiosidas_eventos.png" style="border: 0px solid; position: absolute; top:0px; left:0px; width: 1024px; height: 572px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;" class="oculta" id="CuriEvet" alt="CuriEvet" onclick="Desaparecer(9)"
+		></a>
+		
+		<!--Texto-->
+		<img src="../Imagenes/png/Textos/Cuadro_eventos.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px;
+			overflow: hidden; visibility: visible; z-index: 2; display: none;" id="textoEventos" alt="CuadroJu"
+		>
+		<!--Pestaña de pregunta eventos-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Pestana_preg_eventos.png" style="border: 0px solid; position: absolute; top: 453px; left:238px; width: 135px; height: 116px;
+			overflow: hidden; visibility: visible; z-index: 4; display: none;" id="PestñPreg" alt="LineaDiv" onclick="Aparecer(15)"
+		></a>
+		
+		<!--Pregunta eventos-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Preg_generadora_eventos.png" style="border: 0px solid; position: absolute; top:454px; left:243px; width: 446px; height: 116px;
+			overflow: hidden; visibility: visible; z-index: 4; display: none;" class="oculta" id="PregtGen" alt="CuriEvet" onclick="Desaparecer(10)"
+		></a>
+		
+		<!--Actividad-->
+		<img src="../Imagenes/png/Barras/Eventos_actividad_1.png" style="border: 0px solid; position: absolute; top: 2px; left: 910px; width: 111px; height: 111px;
+			overflow: hidden;	visibility: visible; z-index: 4; display: none;" id="linea1ActividadEve" alt="ActividadEN"
+		>
+		<img src="../Imagenes/png/Barras/Eventos_actividad_12.png" style="border: 0px solid; position: absolute; top: 115px; left: 910px; width: 111px;
+			height: 111px; overflow: hidden; visibility: visible; z-index: 4; display: none;" id="linea2ActividadEve" alt="BarnerAct"
+		>
+		<!--Boton Actividad-->
+		<a href="../Actividades/actividad_Eventos.ods">
+			<img src="../Imagenes/png/Botones/Bot_actividad1.png" style="border: 0px solid; position: absolute; top:120px; left: 908px; width: 117px;
+			height: 114px;	overflow: hidden; visibility: visible; z-index: 4; display: none;" id="botonActividadEve" alt="Bot_Act" onclick="Desaparecer(15)"
+		
+		></a>
+		
+		
+		<!--Cerrar-->
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_cerrar_eventos.png" style="border: 0px solid; position: absolute; top:451px; left: 905px; width: 119px;
+			height: 120px; overflow: hidden; visibility: visible; z-index: 4; display: none;" id="botonCerrarEve" alt="BCerrarJu" onclick="Desaparecer(2)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_eventos_pre.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_cerrar_eventos.png')"
+		></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--BLOQUE MEDIDAS PREVENTIVAS-->
+		
+		<!--Barras-->
+		<img src="../Imagenes/png/Barras/Linea1_medidas.png" style="border: 0px solid; position: absolute; top: 108px; left:226px; width: 118px; height: 351px;
+			overflow: hidden; visibility: visible; z-index: 1; display: none;" id="linea1Medidas" alt="LineaDiv"
+		>
+		<!--Botón de Ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Boton_ciclo.png" style="border: 0px solid; position: absolute; top: 336px; left:674px; width: 130px; height: 126px;
+			overflow: hidden; visibility: visible; z-index: 5; display: none;" id="BotCiclo" alt="BotCiclo" onclick="Aparecer(19)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cicloII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_ciclo.png')"
+		></a>
+				
+		<!--Barra Ciclo-->
+		
+		<img src="../Imagenes/png/Textos/Ciclo.png" style="border: 0px solid; position: absolute; top: 341px; left:342px; width: 341px; height: 114px;
+			overflow: hidden; visibility: visible; z-index: 4; display: none;"  id="BarCiclo" alt="BarCiclo"
+		>
+		
+		<!--Fondo Ciclo-->
+		<img src="../Imagenes/png/Textos/fondo_ciclo.png" style="border: 0px solid; position: absolute; top: 0px; left:0px; width: 1024px; height: 572px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;"  id="fondCiclo" alt="fondCiclo" 
+		>
+		<!--Circulo de Colores-->
+		<img src="../Imagenes/png/Textos/Ciclo (2).png" style="border: 0px solid; position: absolute; top: 63px; left:268px; width: 483px; height: 452px;
+			overflow: hidden; visibility: visible; z-index: 8; display: none;"  id="Cicl2" alt="Cicl2" 
+		>
+		<!--Boton de prevención de ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Boton_prevencion1.png" style="border: 0px solid; position: absolute; top: 133px; left:587px; width: 172px; height: 38px;
+			overflow: hidden; visibility: visible; z-index: 8; display: none;"  id="BotPre" alt="BotPre" onmouseover="(src='../Imagenes/png/Textos/Boton_prevencion1_pre.png'), Aparecer(20)"	
+			onmouseout="(src='../Imagenes/png/Textos/Boton_prevencion1.png'), Desaparecer(17)","Desaparecer(16)"
+		></a>
+		<!--Texto de prevención de Ciclo-->
+		<img src="../Imagenes/png/Textos/prevencion_texto.png" style="border: 0px solid; position: absolute; top: 47px; left:513px; width: 321px; height: 103px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;"  id="PrevTex" alt="PrevTex" 
+		>
+		<!--Boton de Mitigación de ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Boton_mitigacion.png" style="border: 0px solid; position: absolute; top: 171px; left:632px; width: 155px; height: 40px;
+			overflow: hidden; visibility: visible; z-index: 8; display: none;"  id="BotMitgc" alt="BotMitgc" onmouseover="(src='../Imagenes/png/Textos/Boton_mitigacion_pre.png'), Aparecer(21)"	
+			onmouseout="(src='../Imagenes/png/Textos/Boton_mitigacion.png'), Desaparecer(18)","Desaparecer(16)"
+		></a>
+		<!--Texto de Mitigación de Ciclo-->
+		<img src="../Imagenes/png/Textos/mitigacion.png" style="border: 0px solid; position: absolute; top: 206px; left:650px; width: 345px; height: 77px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;"  id="Mitgac" alt="Mitgac" 
+		>
+		<!--Boton de Preparación de ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Boton_preparacion.png" style="border: 0px solid; position: absolute; top: 288px; left:673px; width: 149px; height: 38px;
+			overflow: hidden; visibility: visible; z-index: 8; display: none;"  id="BotPrepr" alt="BotPrepr" onmouseover="(src='../Imagenes/png/Textos/Boton_preparacion_pre.png'), Aparecer(22)"	
+			onmouseout="(src='../Imagenes/png/Textos/Boton_preparacion.png'), Desaparecer(19)","Desaparecer(16)"
+		></a>
+		<!--Texto de Preparación de Ciclo-->
+		<img src="../Imagenes/png/Textos/preparacion.png" style="border: 0px solid; position: absolute; top: 311px; left:625px; width: 318px; height: 100px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;"  id="Preparac" alt="Preparac" 
+		>
+		<!--Boton de Alerta de ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Boton_alerta.png" style="border: 0px solid; position: absolute; top: 399px; left:584px; width: 139px; height: 41px;
+			overflow: hidden; visibility: visible; z-index: 8; display: none;"  id="BotAlerta" alt="BotAlerta" onmouseover="(src='../Imagenes/png/Textos/Boton_alerta_pre.png'), Aparecer(23)"	
+			onmouseout="(src='../Imagenes/png/Textos/Boton_alerta.png'), Desaparecer(20)","Desaparecer(16)"
+		></a>
+		<!--Texto de Alerta de Ciclo-->
+		<img src="../Imagenes/png/Textos/alerta.png" style="border: 0px solid; position: absolute; top: 434px; left:510px; width: 264px; height: 111px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;"  id="TexAlerta" alt="TexAlerta" 
+		>
+		<!--Boton de Respuesta de ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Boton_respuesta.png" style="border: 0px solid; position: absolute; top: 423px; left:252px; width: 258px; height: 41px;
+			overflow: hidden; visibility: visible; z-index: 8; display: none;"  id="BotRepuest" alt="BotRepuest" onmouseover="(src='../Imagenes/png/Textos/Boton_respuesta_pre.png'), Aparecer(24)"	
+			onmouseout="(src='../Imagenes/png/Textos/Boton_respuesta.png'), Desaparecer(21)","Desaparecer(16)"
+		></a>
+		<!--Texto de Respuesta de Ciclo-->
+		<img src="../Imagenes/png/Textos/respuesta.png" style="border: 0px solid; position: absolute; top: 290px; left:100px; width: 261px; height: 139px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;"  id="TexRepuest" alt="TexRepuest" 
+		>
+		<!--Boton de Rehabilitación de ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Boton_rehabilitacion.png" style="border: 0px solid; position: absolute; top: 168px; left:202px; width: 188px; height: 42px;
+			overflow: hidden; visibility: visible; z-index: 8; display: none;"  id="BotRehab" alt="BotRehab" onmouseover="(src='../Imagenes/png/Textos/Boton_rehabilitacion_pre.png'), Aparecer(25)"	
+			onmouseout="(src='../Imagenes/png/Textos/Boton_rehabilitacion.png'), Desaparecer(22)","Desaparecer(16)"
+		></a>
+		<!--Texto de Rehabilitación de Ciclo-->
+		<img src="../Imagenes/png/Textos/rehabilitacion.png" style="border: 0px solid; position: absolute; top: 205px; left:34px; width: 337px; height: 79px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;"  id="TexRehab" alt="TexRehab" 
+		>
+		<!--Boton de Reconstrucción de ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Boton_reconstruccion.png" style="border: 0px solid; position: absolute; top: 135px; left:228px; width: 206px; height: 33px;
+			overflow: hidden; visibility: visible; z-index: 8; display: none;"  id="BotReconst" alt="BotReconst" onmouseover="(src='../Imagenes/png/Textos/Boton_reconstruccion_pre.png'), Aparecer(26)"	
+			onmouseout="(src='../Imagenes/png/Textos/Boton_reconstruccion.png'), Desaparecer(23)","Desaparecer(16)"
+		></a>
+		<!--Texto de Reconstrucción de Ciclo-->
+		<img src="../Imagenes/png/Textos/reconstruccion.png" style="border: 0px solid; position: absolute; top: 56px; left:244px; width: 267px; height: 93px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;"  id="TexReconst" alt="TexReconst" 
+		>
+		<!--Boton Cerrar de Ciclo-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Cerrar_ciclo.png" style="border: 0px solid; position: absolute; top:448px; left: 904px;  width: 122px; height: 124px; 	
+			overflow: hidden; visibility: visible;z-index: 8; display: none;" id="BotCerrCiclo" alt="BotCerrCiclo" onclick="Desaparecer(16)" 
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_medidas_pre.png')" onmouseout="(src='../Imagenes/png/Botones/Cerrar_ciclo.png')"
+		></a>
+
+		<!--Botón Prevención-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Boton_prevencion.png" style="border: 0px solid; position: absolute; top: 224px; left: 340px; width: 121px; height: 123px;
+			overflow: hidden; visibility: visible; z-index: 5; display: none;" id="BotPrev" alt="BotPrev"onclick="Aparecer(27)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_prevencionII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_prevencion.png')"
+		></a>
+		<!--Barra Prevención-->
+		<img src="../Imagenes/png/Textos/Prevencion.png" style="border: 0px solid; position: absolute; top: 227px; left: 455px; width: 342px; height: 115px;
+			overflow: hidden; visibility: visible; z-index: 5; display: none;" id="BarPrev" alt="BarPrev"
+		>
+		<!--Texto de Prevencion-->
+		<img src="../Imagenes/png/Textos/tex_prevecion.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px; 	
+			overflow: hidden; visibility: visible;z-index: 8; display: none;" id="Text_Prevc" alt="TextPrevc" 
+		>
+		<!--Botón Cerrar de Prevencion-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Boton_cerrar_lectura.png" style="border: 0px solid; position: absolute; top: 35px; left: 770px; width: 73px; height: 70px; 	
+			overflow: hidden; visibility: visible;z-index: 9; display: none;" id="BotDCerPrevII" alt="BotDCerPrevII" onclick="Desaparecer(26)" 
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_lecturaII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_cerrar_lectura.png')"
+		></a>
+		<!--Botón de Plan de Emergencia-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Boton_emergencia.png" style="border: 0px solid; position: absolute; top: 109px; left:676px; width: 128px; height: 125px;
+			overflow: hidden; visibility: visible; z-index: 5; display: none;" id="BotEmerg" alt="BotEmerg" onclick="Aparecer(16)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_emergenciaII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_emergencia.png')"
+		></a>
+		<!--Barra Plan de Emergencia-->
+		
+		<img src="../Imagenes/png/Textos/Plan_emergencia.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px;
+		overflow: hidden; visibility: visible; z-index: 4; display: none;" id="PlanEmerg" alt="PlanEmerg"
+		>
+		<!--Texto Plan de Emergencia-->
+		<img src="../Imagenes/png/Textos/tex_plan_emergencia.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px; 	
+			overflow: hidden; visibility: visible;z-index: 5; display: none;" id="TextPlanEmer" alt="TextPlanEmer"
+		>
+		<!--Botón Cerrar Plan de Emergencia-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Boton_cerrar_emergencia.png" style="border: 0px solid; position: absolute; top: 89px; left: 770px; width: 59px; height: 64px; 	
+			overflow: hidden; visibility: visible;z-index: 6; display: none;" id="BotDCer" alt="BotDCer" onclick="Desaparecer(11)" 
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_emergenciaII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_cerrar_emergencia.png')"
+		></a>
+		<!--Boton Curiosidad Medida-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Curiosidad_medidas.png" style="border: 0px solid; position: absolute; top: 226px; left:793px; width: 116px; height: 115px; 	
+			overflow: hidden; visibility: visible; z-index: 4; display: none;" id="BotCurMed" alt="BotCurMed" onclick="Aparecer(17)" onmouseover="(src='../Imagenes/png/Botones/Curiosidad_medidas_pre.png')" 
+			onmouseout="(src='../Imagenes/png/Botones/Curiosidad_medidas.png')"
+		></a>
+		<!--Texto Curiosidad Medida-->
+		<img src="../Imagenes/png/Textos/curiosidas_medidas.png" style="border: 0px solid; position: absolute; top:0px; left:0px; width: 1024px; height: 572px;
+			overflow: hidden; visibility: visible; z-index: 7; display: none;" class="oculta" id="TexCurMed" alt="TexCurMed" onclick="Desaparecer(12)"
+		></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--Pestaña de pregunta Medida-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Pestana_preg_medidas.png" style="border: 0px solid; position: absolute; top: 453px; left:236px; width: 132px; height: 115px;
+			overflow: hidden; visibility: visible; z-index: 4; display: none;" id="PestñPregMed" alt="PestñPregMed" onclick="Aparecer(28)"
+		></a>
+		
+		<!--Pregunta-->
+		<a href="#">
+		<img src="../Imagenes/png/Textos/Preg_generadora_medidas.png" style="border: 0px solid; position: absolute; top:454px; left:260px; width: 447px; height: 118px;
+			overflow: hidden; visibility: visible; z-index: 4; display: none;" class="oculta" id="PregtGenMed" alt="PregtGenMed" onclick="Desaparecer(24)"
+		></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--Actividad-->
+		<img src="../Imagenes/png/Barras/Medidas_actividad_1.png" style="border: 0px solid; position: absolute; top: 2px; left: 910px; width: 111px; height: 111px;
+			overflow: hidden;	visibility: visible; z-index: 4; display: none;" id="linea1ActividadMed" alt="ActividadMP"
+		>
+		<img src="../Imagenes/png/Barras/Medidas_actividad_12.png" style="border: 0px solid; position: absolute; top: 115px; left: 910px; width: 111px;
+			height: 111px; overflow: hidden; visibility: visible; z-index: 4; display: none;" id="linea2ActividadMed" alt="BarnerAct"
+		>
+
+		<!--Boton Actividad-->
+		<a href="#">
+		<img src="../Imagenes/png/Botones/Bot_actividad1.png" style="border: 0px solid; position: absolute; top: 6px; left: 908px; width: 117px;
+			height: 114px;	overflow: hidden; visibility: visible; z-index: 4; display: none;" id="botonActividadMed" alt="botonActividadMed"  onclick="Aparecer(18)"
+		
+		></a>
+
+		<a href="../Actividades/actividad_Medidas.ods">
+		<img src="../Imagenes/png/Botones/Bot_actividad2.png" style="border: 0px solid; position: absolute; top: 126px; left: 908px; width: 116px;
+			height: 111px;	overflow: hidden; visibility: visible; z-index: 4; display: none;" id="botonActividadMed2" alt="botonActividadMed2"
+		
+		></a>
+
+		<!--Intrucciones de Juegos-->
+		<img src="../Imagenes/png/juego/Instrucciones.png" style="border: 0px solid; position: absolute; top: 0px; left: 0px; width: 1024px; height: 572px; 	
+			overflow: hidden; visibility: visible;z-index: 5; display: none;" id="IntrucDeJueg" alt="TextPlanEmer"
+		>
+		
+		<!--Botón Cerrar Intrucciones de Juegos-->
+		<a href="../Actividades/juego.html">
+		<img src="../Imagenes/png/Botones/Boton_cerrar_emergencia.png" style="border: 0px solid; position: absolute; top: 0px; left: 963px; width: 59px; height: 64px; 	
+			overflow: hidden; visibility: visible;z-index: 6; display: none;" id="BotJuegCerr" alt="BotDCer" onclick="Desaparecer(15)" 
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_emergenciaII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_cerrar_emergencia.png')"
+		></a>
+			
+		<!--Cerrar-->
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_cerrar_medidas.png" style="border: 0px solid; position: absolute; top:448px; left: 904px; width: 120px;
+			height: 125px; overflow: hidden; visibility: visible; z-index: 4; display: none;" id="botonCerrarMed" alt="BCerrarEd" onclick="Desaparecer(3)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_medidas_pre.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_cerrar_medidas.png')"
+		></a>
+		
+		<!--BLOQUE ORIENTACIONES-->
+		
+		<!--Botones-->
+			<img src="../Imagenes/png/Botones/Boton_sp.png" style="border: 0px solid ; position: absolute; z-index: 2; top: 0px; left: 0px; width: 1024px;
+			height: 572px; overflow: hidden; visibility: visible; z-index: 4; display: none;" id="botonSP" alt="Boton_sp"
+		>
+		<a href="#">
+			 <img src="../Imagenes/png/Botones/Boton_sujerencias_pedagogicas.png"  style="border: 0px solid ; position: absolute; z-index: 5; top: 451px; left: 455px;
+			width: 115px; height: 120px; overflow: hidden; visibility: visible; display: none;" id="botonSugPed" alt="Boton_Sug_ped" onclick="Aparecer(5)"
+		onmouseover="(src='../Imagenes/png/Botones/Boton_sujerencias_pedagogicasII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_sujerencias_pedagogicas.png')"
+		></a>
+		<img src="../Imagenes/png/Botones/Boton_oa.png" style="border: 0px solid ; position: absolute; z-index: 5; top: 451px;	left: 569px; width: 114px;
+			height: 120px; overflow: hidden; visibility: visible; display: none;" id="botonAD" alt="Boton_Ad"
+		>
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_orientaciones_adultos.png" style="border: 0px solid ; position: absolute; z-index: 4; top: 454px; left: 683px;
+			width: 113px; height: 114px; overflow: hidden; visibility: visible; display: none;" id="botonOriAdul" alt="Boton_Ori_Adul" onclick="Aparecer(6)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_orientaciones_adultosII.png')" onmouseout="(src='../Imagenes/png/Botones/Boton_orientaciones_adultos.png')"
+		></a>
+		<img src="../Imagenes/png/Botones/Boton_on.png" style="border: 0px solid ; position: absolute; z-index: 4; top: 451px; left: 795px; width: 115px;
+			height: 120px; overflow: hidden; visibility: visible; z-index: 2; display: none;" id="botonON" alt="Boton_On"
+		>
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_orientaciones_ninos.png" style="border: 0px solid ; position: absolute; z-index: 4; top: 450px; left: 908px;
+			width: 116px; height: 120px; overflow: hidden; visibility: visible; display: none;" id="botonOriNi" alt="Boton_Ori_Ni" onclick="Aparecer(7)"
+		onmouseover="(src='../Imagenes/png/Botones/Boton_orientaciones_ninosII.png')" onmouseout="(src='../Imagenes/png/Botones//Boton_orientaciones_ninos.png')"
+		></a>
+		
+		<!--Textos-->
+		<a href="#">
+			<img src="../Imagenes/png/Textos/Pedagogicas.png" style="border: 0px solid; position: absolute; z-index: 5; top: 111px; left: 337px; width: 350px;
+			height: 344px; overflow: hidden; visibility: visible; display: none;" id="textoPedagogicas" alt="textoPedagogicas" onclick="Desaparecer(5)"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Textos/Adultos.png" style="border: 0px solid; position: absolute; z-index: 5; top: 103px; left: 445px; width: 478px;
+			height: 360px; overflow: hidden; visibility: visible; display: none;" id="textoAdultos" onclick="Desaparecer(5)"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Textos/Ninos.png" style="border: 0px solid; position: absolute; z-index: 5; top: 114px;  left: 679px; width: 345px;
+			height: 341px; overflow: hidden; visibility: visible; display: none;" id="textoNinos"  alt="textoNinos" onclick="Desaparecer(5)"
+		></a>
+		<a href="#">
+			<img src="../Imagenes/png/Botones/Boton_cerrar_orientaciones.png" style="border: 0px solid; position: absolute; top: 1px; left: 905px; width: 119px;
+			height: 118px; overflow: hidden; visibility: visible; z-index: 4; display: none;" id="botonCerrarOri" alt="BCerrarVM" onclick="Desaparecer(4)"
+			onmouseover="(src='../Imagenes/png/Botones/Boton_cerrar_orientaciones_pre.png')"
+			onmouseout="(src='../Imagenes/png/Botones/Boton_cerrar_orientaciones.png')"
+		></a>
+	</body>
+</html>

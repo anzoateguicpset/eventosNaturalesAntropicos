@@ -1,0 +1,146 @@
+
+
+body {
+    background: url(../Imagenes/png/juego/Fondo_Actividad.png) no-repeat;
+    /*display: none;*/
+}
+
+.ficha {
+    position:absolute;
+    top: 30px;
+    left: 145px;
+    padding: 0;
+    margin: 5px 5px 5px 5px;
+    /*display: none;*/
+}
+
+.mensaje1 {
+	position: absolute;
+	padding: 0px;
+	margin: 10px 0 0 322px;
+	display: none;
+}
+
+.mensaje2 {
+	position: absolute;
+	padding: 0px;
+	margin: 205px 0 0 210px;
+	display: none;
+}
+
+.mensaje6 {
+	position: absolute;
+	padding: 0px;
+	margin: 7px 0 0 523px;
+	display: none;
+}
+
+.mensaje8 {
+	position: absolute;
+	padding: 0px;
+	margin: 223px 0 0 526px;
+	display: none;
+}
+
+.mensaje11 {
+	position: absolute;
+	padding: 0px;
+	margin: 375px 0 0 785px;
+	display: none;
+}
+
+.mensaje13 {
+	position: absolute;
+	padding: 0px;
+	margin: 455px 0 0 335px;
+	display: none;
+}
+
+.mensaje14 {
+	position: absolute;
+	padding: 0px;
+	margin: 215px 0 0 500px;
+	display: none;
+}
+
+.mensaje16 {
+	position: absolute;
+	padding: 0px;
+	margin: 215px 0 0 445px;
+	display: none;
+}
+
+.meta {
+	position: absolute;
+	padding: 0px;
+	margin: -7px 0 0 -7px;
+	z-index: 3;
+	display: none;
+}
+
+.bcerrar{
+	position: absolute;
+	padding: 0px;
+	margin: -7px 0 0 899px;
+	z-index: 5;
+	display: none;
+}
+
+.cuadro{
+	position: absolute;
+	padding: 0px;
+	margin: 163px 0 0 53px;
+}
+
+.n1{
+	position: absolute;
+	padding: 0px;
+	margin: 157px 0 0 11px;
+	display: none;
+}
+
+.n2{
+	position: absolute;
+	padding: 0px;
+	margin: 157px 0 0 11px;
+	display: none;
+}
+
+.n3{
+	position: absolute;
+	padding: 0px;
+	margin: 157px 0 0 11px;
+	display: none;
+}
+
+.n4{
+	position: absolute;
+	padding: 0px;
+	margin: 157px 0 0 11px;
+	display: none;
+}
+
+.n5{
+	position: absolute;
+	padding: 0px;
+	margin: 157px 0 0 11px;
+	display: none;
+}
+
+.n6{
+	position: absolute;
+	padding: 0px;
+	margin: 148px 0 0 5px;
+	display: none;
+}
+
+.instrucciones{
+	position: absolute;
+	padding: opx;
+	margin: -5px 0 0 -10px;
+	z-index: 50;
+	display: none;
+}
+
+
+

@@ -1,0 +1,18 @@
+
+
+body{
+	position: absolute;
+	background: url(../Imagenes/png/Fondos/Fondo_princ.png) no-repeat;
+}
+
+.lineas{
+	margin: -8px 0 0 -8px;
+}
+
+.logo{
+	margin: -568px 0 0 -8px;
+	border-style: none;
+	display: none;
+}
+
+
